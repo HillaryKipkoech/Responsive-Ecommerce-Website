@@ -85,19 +85,13 @@ html,body{overflow-x: hidden;overflow-y: auto;}
     .logo-sift{margin-top:-8%;margin-bottom:-8%;}
 }
 /*top-containt*/
-#header {
-    transition: all 0.5s;
-    z-index: 997;
-    padding: 15px 0;
-  }
-  #header.header-scrolled, #header.header-inner-pages {
-    background: rgba(0, 0, 0, 0.8);
+
 /*middle*/
 .header{text-transform: capitalize;font-size:40px;}
 @media screen and (max-width:991px){
     .card-3{display:none}
 }
-.header-part{height:300px;width:100%;border-radius:20px;}
+.header-part{height: 300px !important;width:100%;border-radius:20px;}
 /*middle*/
 
 /*footer*/
@@ -117,5 +111,5 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 }
 /*footer*/
 @media screen and (max-width:426px){
-    .header-part{height:200px}
+    .header-part{height:100px}
 }

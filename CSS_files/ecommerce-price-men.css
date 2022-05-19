@@ -13,7 +13,7 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 .color{color:black;text-decoration: none;}
 .color:hover{color:black;text-decoration: none;}
 .profile-icon::after{content:"hello user";height:10%;width:10%;background-color: firebrick;}
-.pre-profile-1:hover{background-color:rgba(212, 206, 206, 0.993)}
+.pre-profile-1:hover{background-color:rgba(15, 15, 15, 0.993)}
 .menu-bar-1,.close{display:none;}
 .pre-side-bar{list-style:none;text-transform: uppercase;font-weight: 600;font-size:15px;display:none;}
 .menu-bar-2{display: none;}

@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8)!important;
 }
 #header .logo {
   font-size: 32px;
@@ -450,16 +450,16 @@ section {
   padding-bottom: 40px;
 }
 .section-title h2 {
-  font-size: 14px;
-  
+  font-size: 20px;
+  margin-left: 300px;
   font-weight: 500;
-  padding: 0;
+  padding: 50px!important;
   line-height: 1px;
   /* margin: 0 0 5px 0; */
   margin-top: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #0f0f0f;
   font-family: "Poppins", sans-serif;
 }
 .section-title h2::after {
@@ -467,16 +467,16 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  /* background: #ffde9e; */
   margin: 4px 10px;
 }
 .section-title p {
   margin: 0;
   margin: 0;
   font-size: 15px;
-  font-weight: 700;
+  /* font-weight: 700; */
   /* text-transform: uppercase; */
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   /* color: #151515; */
 }
 

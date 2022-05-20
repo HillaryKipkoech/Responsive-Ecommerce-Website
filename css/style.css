@@ -7926,7 +7926,8 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -8240,21 +8241,22 @@ h1, h2, h3, h4, h5,
         opacity: .3; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 650px!important;
-        position: absolute; }
+        position: relative; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           z-index: 0;
           color: rgba(255, 255, 255, 0.9); }
         .owl-carousel.home-slider .slider-item .slider-text h2 {
+          /* text-align: left!important; */
           font-size: 4vw;
-          font-weight: 700;
+          font-weight: 200;
           text-transform: uppercase;
           color: #fff;
           line-height: 5p!important; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
-              font-size: 50px; } }
+              font-size: 20px; } }
         .owl-carousel.home-slider .slider-item .slider-text h4 {
-          font-size: 16px;
+          font-size: 10px;
           text-transform: uppercase;
           letter-spacing: 2px;
           font-family: "Poppins", Arial, sans-serif;

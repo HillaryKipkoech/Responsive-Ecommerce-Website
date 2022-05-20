@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Gp Bootstrap Template - Index</title>
+  <title>MidAtlantics</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -67,8 +67,8 @@
     <div class="container-fluid text-white" id="change-color">
             <div class="row" id="top-containt">
               <div class="col-4 text-center">
-                <a href="login-ecommerce.html"><img src="Images/logo/logo.png" height="80px" class="color logo-1 logo-sift"></a>
-                <!-- <a href="login-ecommerce.html"><img src="Images/pinterest_icon.png" height="70px" class=" color logo-2 mt-1 ml-2"></a> -->
+                <a href="index.html"><img src="Images/logo/logo.png" height="80px" class="color logo-1 logo-sift"></a>
+                 <a href="index.html"><img src="Images/logo/logo.png" height="70px" class=" color logo-2 mt-1 ml-2"></a>
               </div>
               <div class="col-8 pt-4 mt-1 text-center"> 
                 <span class="menu"><a href="index.html" class="color">Home</a></span>
@@ -91,7 +91,7 @@
                   <li class="pt-4" style="margin-left:-5%;"><a href="printing.html" class="color">Products</a></li>
                   <li class="pt-3"style="margin-left:-5%"><a href="#" class="color">Request Quote</a></li>
                   
-                  <li class="pt-3"style="margin-left:-5%"><a href="contact.html" class="color">contact Us</a></li>
+                  <li class="pt-3"style="margin-left:-5%"><a href="contact.php" class="color">contact Us</a></li>
           
                 </ul>
             </div>  
@@ -144,7 +144,7 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <form action="sendmail.php" method="post" id= "role" class="php-email-form">
+          <form action="sendmail.php" method="post" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>

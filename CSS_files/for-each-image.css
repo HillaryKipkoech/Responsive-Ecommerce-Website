@@ -26,7 +26,7 @@ html,body{overflow-x: hidden;overflow-y: auto;}
     .menu-1,.menu,.profile-icon,.profile{display:none;}
     .menu-bar{display: block;font-size:40px;margin-top:-3%;}
     .side-bar{height:81.1vh;width:30%;background-color:rgba(0, 0, 0, 0.137);display: block;overflow: hidden;margin-left:-5%;display:none;}
-    .pre-side-bar{display: block;}
+    .pre-side-bar{display: block; background-color: azure;}
     .close{display: block;font-size:40px;}
     .log-in{margin-left:2%;margin-top:-3%;height:25px;}
     .large-right-sider,.large-left-sider{display:none;}
@@ -35,7 +35,7 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 
 }
 @media screen and (max-width:768px){
-    .pre-side-bar{font-size:15px;} 
+    .pre-side-bar{font-size:15px; background-color: azure;} 
 }
 @media screen and (max-width:630px){
     .side-bar{width:40%}

@@ -30,6 +30,29 @@
   <link href="contacts/css/style.css" rel="stylesheet">
 
   
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+<!-- style for testing -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="CSS_files/ecommerce-price-men.css">
+        <script src="JS_files/ecommerce-price-men.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+        <link rel="stylesheet" type="text/css" href="Plugins/slick-master/slick/slick-theme1.css"/>
+        <script type="text/javascript" src="Plugins/slick-master/slick/slick.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css"/>
+
+<!-- end of style -->
+  
 
   <!-- =======================================================
   * Template Name: Gp - v4.7.0
@@ -40,47 +63,43 @@
 </head>
 
 <body>
-    <header id="header" class="fixed-top ">
-        <div class="container d-flex align-items-center justify-content-lg-between">
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html" class="logo me-auto me-lg-0"><img src="images/logo/logo.png" alt="" class="img-fluid"></a>
-    
-          <nav id="navbar" class="navbar order-last order-lg-0">
-            <ul>
-              <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-              <li><a class="nav-link scrollto" href="printing.html">Printing</a></li>
-              <li><a class="nav-link scrollto" href="Logged_in_product_page.html">Products</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-              <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-              <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
+    <!--header part start-->              
+    <div class="container-fluid text-white" id="change-color">
+            <div class="row" id="top-containt">
+              <div class="col-4 text-center">
+                <a href="login-ecommerce.html"><img src="Images/logo/logo.png" height="80px" class="color logo-1 logo-sift"></a>
+                <!-- <a href="login-ecommerce.html"><img src="Images/pinterest_icon.png" height="70px" class=" color logo-2 mt-1 ml-2"></a> -->
+              </div>
+              <div class="col-8 pt-4 mt-1 text-center"> 
+                <span class="menu"><a href="index.html" class="color">Home</a></span>
+                <span class="menu-1"><a href="printing.html" class="color">Printing</a></span>
+                <span class="menu"><a href="product.html" class="color">products</a></span>
+                <span class="menu"><a href="#" class="color">Request Quote</a></span>
+                <span class="menu"><a href="contact.php" class="color">contact Us</a></span>
+                <span class="menu-bar text-right"><a href="#/" class="color">&#9776;</a></span>
+                <span class="menu-bar-1 text-right"><a href="#/" class="color">&#9776;</a></span>
+                <span class="menu-bar-2 text-right"><a href="#/" class="color">&#9776;</a></span>
+              </div>
+            </div>
+            <div class="container-fluid side-bar px-0">
+              <div class="col-12 text-right bg-danger"> 
+                <span class="close"><a href="#/" class="color">&times;</a></span>
+              </div>
+                <ul class="pt-5 pre-side-bar">
+                  <li class="pt-3"style="margin-left:-5%"><a href="index.html" class="color">Home</a></li>
+                  <li class="menu-1"><a href="printing.html" class="color">Printing</a></li>
+                  <li class="pt-4" style="margin-left:-5%;"><a href="printing.html" class="color">Products</a></li>
+                  <li class="pt-3"style="margin-left:-5%"><a href="#" class="color">Request Quote</a></li>
+                  
+                  <li class="pt-3"style="margin-left:-5%"><a href="contact.html" class="color">contact Us</a></li>
+          
                 </ul>
-              </li> -->
-              <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-    
-          <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
-    
+            </div>  
         </div>
-      </header>
-      <!-- End Header -->
+        <!--header part end-->
 
-   <div class="container-fluid">
+   
+      <div class="container-fluid">
       <main id="main">
         
     

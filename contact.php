@@ -71,14 +71,15 @@
                  <a href="index.html"><img src="Images/logo/logo.png" height="70px" class=" color logo-2 mt-1 ml-2"></a>
               </div>
               <div class="col-8 pt-4 mt-1 text-center"> 
-                <span class="menu"><a href="index.html" class="color">Home</a></span>
-                <span class="menu-1"><a href="printing.html" class="color">Printing</a></span>
-                <span class="menu"><a href="product.html" class="color">products</a></span>
-                <span class="menu"><a href="#" class="color">Request Quote</a></span>
-                <span class="menu"><a href="contact.php" class="color">contact Us</a></span>
-                <span class="menu-bar text-right"><a href="#/" class="color">&#9776;</a></span>
-                <span class="menu-bar-1 text-right"><a href="#/" class="color">&#9776;</a></span>
-                <span class="menu-bar-2 text-right"><a href="#/" class="color">&#9776;</a></span>
+              <span class="menu"><a href="index.html" class="color">Home</a></span>
+                  <!-- <span class="menu"><a href="product.html" class="color">Products</a></span> -->
+                  <span class="menu"><a href="about.html" class="color">About Us</a></span>
+                  <span class="menu"><a href="Services.html" class="color">Services</a></span>
+                  <span class="menu"><a href="contact.php" class="color">contact Us</a></span>
+                  <span class="menu"><a class="btn btn-primary" href="#" role="button">Get QUote</a></span>
+                  <span class="menu-bar text-right"><a href="#/" class="color">&#9776;</a></span>
+                  <span class="menu-bar-1 text-right"><a href="#/" class="color">&#9776;</a></span>
+                  <span class="menu-bar-2 text-right"><a href="#/" class="color">&#9776;</a></span>
               </div>
             </div>
             <div class="container-fluid side-bar px-0">
@@ -87,11 +88,12 @@
               </div>
                 <ul class="pt-5 pre-side-bar">
                   <li class="pt-3"style="margin-left:-5%"><a href="index.html" class="color">Home</a></li>
-                  <li class="menu-1"><a href="printing.html" class="color">Printing</a></li>
-                  <li class="pt-4" style="margin-left:-5%;"><a href="printing.html" class="color">Products</a></li>
-                  <li class="pt-3"style="margin-left:-5%"><a href="#" class="color">Request Quote</a></li>
+                  <li class="menu-1"><a href="about.html" class="color">About Us</a></li>
+                  <li class="pt-3"style="margin-left:-5%"><a href="services.html" class="color">Services</a></li>
+                  <li class="pt-4" style="margin-left:-5%;"><a href="contact.php" class="color">Contact us</a></li>
+                  <li class="pt-3"style="margin-left:-5%"><a href="#" class="color">GET Quote</a></li>
                   
-                  <li class="pt-3"style="margin-left:-5%"><a href="contact.php" class="color">contact Us</a></li>
+        
           
                 </ul>
             </div>  

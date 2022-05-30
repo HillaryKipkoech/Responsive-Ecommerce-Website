@@ -109,3 +109,34 @@ float {
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+/* whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:30px;
+	background-color:#25d366;
+	color:white!important;
+	border-radius:50px;
+	text-align:center!important;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  transition: all 0.1s ease-in-out;
+
+}
+
+.my-float{
+	margin-top:16px;
+  
+}
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+.cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(..Images/flyers.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+}

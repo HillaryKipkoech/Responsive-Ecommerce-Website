@@ -14,7 +14,7 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 .menu-bar-1,.close{display:none;}
 .pre-side-bar{list-style:none;text-transform: uppercase;font-weight: 600;font-size:15px;display:none;}
 .menu-bar-2{display: none;}
-.side-bar{display:none;}
+.side-bar{display:none; height: 10px;}
 html,body{overflow-x: hidden;overflow-y: auto;}
 #change-color{position:fixed;transition: 0.2s linear;z-index:1;}
 .side-list{position:fixed;z-index: 2;}
@@ -112,4 +112,42 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 /*footer*/
 @media screen and (max-width:426px){
     .header-part{height:100px}
+}
+.cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(..Images/flyers.jpg) fixed center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/flyers.jpg);
+    background-position-x: initial, center;
+    background-position-y: initial, center;
+    background-size: cover;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, fixed;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+    background-size: cover;
+    padding: 120px 0;
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+    padding-left: 0px;
+    color: #fff;
+}
+/*  */
+a {
+    color: #009961;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
 }

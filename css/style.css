@@ -3816,6 +3816,8 @@ input[type="button"].btn-block {
 
 .card-header {
   padding: 0.75rem 1.25rem;
+  color: #eb5526;
+  font-size: large;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
@@ -3823,6 +3825,7 @@ input[type="button"].btn-block {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
   .card-header + .list-group .list-group-item:first-child {
     border-top: 0; }
+    
 
 .card-footer {
   padding: 0.75rem 1.25rem;
@@ -6757,7 +6760,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important; }
+  padding-top: 3rem ; }
 
 .pr-5,
 .px-5 {
@@ -8233,7 +8236,7 @@ h1, h2, h3, h4, h5,
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
-        top: 0;
+        top: 20px;
         bottom: 0;
         left: 0;
         right: 0;
